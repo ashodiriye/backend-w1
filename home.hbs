@@ -1,0 +1,12 @@
+
+<ul>
+  {{#each movies}}
+    <li>{{this}}</li>
+  {{/each}}
+</ul>
+
+<div class="movie-container">
+  {{#each movies}}
+    <img class="movie-img" src="{{image}}" alt="{{title}}">
+  {{/each}}
+</div>

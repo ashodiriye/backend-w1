@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    color: gray;
+    font-size: 3em;
+    
+}
+
+main {
+    flex-grow: 1;
+    margin: auto;
+    max-width: 800px;
+    padding: 0 20px;
+    width: 100%;
+}
+.movie-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.movie-img{
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+}
+
+footer {
+    background: gray;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
